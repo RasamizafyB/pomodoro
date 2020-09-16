@@ -1,5 +1,5 @@
 {
-  "name": "pomodoro-clock",
+  "name": "pomodoro",
   "version": "0.1.0",
   "dependencies": {
     "gh-pages": "^1.2.0",
