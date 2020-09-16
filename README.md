@@ -1,68 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pomodoro 
 
-## Available Scripts
+> A simple, static, [pomodoro timer](https://en.wikipedia.org/wiki/Pomodoro_Technique) with [React](https://reactjs.org).
 
-In the project directory, you can run:
+- Repository : **`react-pomodoro`**
+- Duration : **1 week**
+- Deadline : **16/09/2020 17:00**
+- Deployment : **[Netlify](https://www.netlify.com)**
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Minimal requirements
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Display a big timer (minutes and seconds).
+- Four buttons:
+  - **plus (+)** and **minus (-)**, they will allow the user to adjust the *minutes counter* - **only when it's stopped**.
+  - **start**, to run the timer (it will then change to **stop**), to serve as a *toggle* button
+  - **reset**, to… reset the timer to its original value
+- At the end of the timer, show a modal to invite user to *take a break*. The modal will have two buttons:
+  - One to close the modal
+  - Another to close the modal *and* start a new timer
 
-### `npm test`
+## Optional additions
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can add anything to the timer, as long as the minimal requirements are fulfilled.
 
-### `npm run build`
+You can add a sound at the end of the timer, add another timer in the modal to limitate the break time, add animations… feel free to try anything!
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Hosting
 
-### `npm run eject`
+We want you to publish your pomodoro online. There's many solutions to host a static website online for free, like [**github-pages**](https://pages.github.com).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+We will use a new solution: [Netlify](https://www.netlify.com).  
+It's free, easy to setup, and can observe your changes and publish automatically.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* * *
